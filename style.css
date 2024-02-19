@@ -1,0 +1,170 @@
+@charset "utf-8"; 
+
+
+@keyframes mover {
+
+    from{
+        transform: translatey(300px);
+    }
+
+    to{
+        transform: translatey(0px);
+    }
+    
+}
+
+section{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+
+input{
+    padding: 1em;
+    font-size: 20px;
+    border-radius: 3em;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgba(201, 186, 216, 0.822);
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+}
+
+body{
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://images.unsplash.com/photo-1639762681057-408e52192e55?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+header p{
+    margin-top: -3.6%;
+    padding-left: 45%;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+header{
+    background-color: rgb(180, 194, 255);
+    padding: 4em;
+    margin: -2%;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15%;
+    text-shadow: 2px 2px 1px black;
+    animation: mover 1s;
+}
+
+img{
+    width: 30em;
+    height: 20em;
+    padding-left: 20%;
+    margin-bottom: 1%;
+    animation: mover 1s;
+}
+
+h2 p{
+    font-size: 30px;
+    background-color: rgb(184, 180, 176);
+    padding: 1em;
+    animation: mover 1s;
+}
+
+h2{
+    margin-top: 10%;
+    background-color: rgb(184, 180, 176);
+    padding: 2em;
+}
+
+div{
+    margin: 5%;
+}
+
+h3 p{
+    font-size: 25px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(180, 194, 255);
+    padding: 4em;
+    margin: -2%;
+}
+
+footer p{
+    font-size: 30px;
+    color: black;
+    font-family: "Anta", sans-serif;
+    text-align: center;
+}
+
+
+@media all and (max-width: 760px) {
+
+   input{
+    
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 0%;
+    font-size: 15px;
+    border-radius: 3em;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgba(201, 186, 216, 0.822);
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+   }
+
+   header p{
+    margin-top: 5%;
+    margin-left: 0%;
+    padding-left: 0;
+    margin: 3%;
+    font-size: 25px;
+   }
+
+   header{
+    padding: 1em;
+    margin: -1em;
+   }
+
+    h1{
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+
+    h2 p{
+        font-size: 17px;
+    }
+
+    img{
+        width: 15em;
+        height: 10em;
+        padding-left: 10%;
+        margin-bottom: 1%;
+    }
+
+    iframe{
+        width: 15em;
+        height: 10em;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+}
